@@ -1,12 +1,12 @@
 #
-# Makefile for Sky A910
+# Makefile for Lg G2
 #
 
 # The original zip file, MUST be specified by each product
 local-zip-file     := stockrom.zip
 
 # The output zip file of MIUI rom, the default is porting_miui.zip if not specified
-local-out-zip-file := MIUI_A910.zip
+local-out-zip-file := MIUI_G2.zip
 
 # the location for local-ota to save target-file
 local-previous-target-dir := 
@@ -17,7 +17,7 @@ local-modified-apps :=
 local-modified-jars := org.cyanogenmod.platform
 
 # All apks from MIUI
-local-miui-removed-apps := FM
+local-miui-removed-apps := FM SogouInput
 
 #local-miui-modified-apps := TeleService
 
