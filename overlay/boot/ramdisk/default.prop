@@ -1,0 +1,21 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.adb.secure=0
+ro.secure=0
+ro.allow.mock.location=1
+ro.debuggable=1
+ro.zygote=zygote32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+debug.atrace.tags.enableflags=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Sun Apr 3 14:04:37 KST 2016
+ro.bootimage.build.date.utc=1459659877
+ro.bootimage.build.fingerprint=LGE/cm_f320/f320:6.0.1/MHC19J/f77cb6d905:userdebug/test-keys
+persist.sys.usb.config=adb
